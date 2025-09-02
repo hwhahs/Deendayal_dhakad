@@ -38,7 +38,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5492204858').split()] # Replace with the actual admin ID(s) to add
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6068324833').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002406799151').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002474664348'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002474664348'))  # Bin channel id (make sure bot is admin)
@@ -85,19 +85,19 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/dreamcinezone')  # Ho
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c0faab1f5c6e9d47a38356b93ccc278fe27f5672')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'cda4c55fd88d13fca32d6a8b60f844a63500d0b0')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tutorialshortlinks/7')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+FzIPOlrprrhkMDE1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+FzIPOlrprrhkMDE1')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+FzIPOlrprrhkMDE1')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+F17Oix7dQf9jZDRl')
-OWNERID = int(os.environ.get('OWNERID', '5492204858'))  # Replace with the actual admin ID
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+taLL8Bki2yZmMGQ9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+3O1dxDqP6wpjZmM1')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ravansigh10000')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+3O1dxDqP6wpjZmM1')
+OWNERID = int(os.environ.get('OWNERID', '6068324833'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
@@ -141,8 +141,8 @@ EMOJI_MODE = bool(environ.get('EMOJI_MODE', False))  # Emoji status On (True) / 
 auth_grp = environ.get('-1002645066063')
 AUTH_CHANNEL = int(-1002645066063) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-REQST_CHANNEL = int(-1002645066063) if reqst_channel and id_pattern.search(reqst_channel) else None
-SUPPORT_CHAT_ID = int(-1002645066063) if support_chat_id and id_pattern.search(support_chat_id) else None
+REQST_CHANNEL = int(-1002827861944) if reqst_channel and id_pattern.search(reqst_channel) else None
+SUPPORT_CHAT_ID = int(-1002827861944) if support_chat_id and id_pattern.search(support_chat_id) else None
 LANGUAGES = ["malayalam", "", "tamil", "", "english", "", "hindi", "", "telugu", "", "kannada", "", "gujarati", "", "marathi", "", "punjabi", ""]
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
